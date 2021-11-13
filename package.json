@@ -1,0 +1,18 @@
+{
+  "name": "sanity-image-upload",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "kill-port --port 3300 && nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^2.21.10",
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.15"
+  }
+}
